@@ -1,12 +1,6 @@
 import express from "express";
 
-import {
-  getAllJasa,
-  getJasaById,
-  createJasa,
-  updateJasa,
-  deleteJasa,
-} from "../controllers/jasa.controller.js";
+import { getAllJasa,getJasaById,createJasa,updateJasa,deleteJasa } from "../controllers/jasa.controller";
 
 const router = express.Router();
 
